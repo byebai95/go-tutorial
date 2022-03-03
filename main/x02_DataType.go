@@ -1,17 +1,37 @@
 package main
 
-import (
-	"fmt"
-	_ "fmt"
-)
+import "fmt"
 
 func main() {
 
-	var b bool = true
+	//整形
+	var age int = 18
+	fmt.Println(age)
 
-	var age uint8 = 25
+	//字符类型
+	str := "abc"
+	fmt.Println(str)
 
-	fmt.Println(b, age)
+	//浮点类型
+	var grade float32
+	grade = 80.1
+	fmt.Println(grade)
+
+	//布尔类型
+	var tag bool = true
+	fmt.Println(tag)
+
+	//指针类型
+	var ptr *int = &age
+	fmt.Println(*ptr)
+
+	//数组类型.
+	var arr = [...]int{1, 10, 100}
+	fmt.Println(arr)
+
+	//切片类型，动态数组
+	var sli []int
+	fmt.Println(sli)
 
 }
 

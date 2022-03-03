@@ -4,9 +4,23 @@ import "fmt"
 
 func main() {
 
-	var i = 100
-	fmt.Println(&i)
-	fmt.Println(*&i)
+	// + - * / % ++ --
+
+	var n, m int = 10, 20
+
+	fmt.Println(n, m)
+
+	n += m
+	fmt.Println(n, m)
+
+	n -= m
+	fmt.Println(n, m)
+
+	n *= m
+	fmt.Println(n, m)
+
+	n++
+	fmt.Println(n, m)
 
 }
 

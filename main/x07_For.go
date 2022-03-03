@@ -4,8 +4,12 @@ import "fmt"
 
 func main() {
 
-	for true {
-		fmt.Println("for 循环")
+	for i := 0; i < 10; i++ {
+		fmt.Print(i)
+	}
+
+	for false {
+		fmt.Println("循环")
 	}
 }
 

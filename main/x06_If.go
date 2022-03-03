@@ -1,5 +1,20 @@
 package main
 
+import "fmt"
+
+func main() {
+
+	var age int = 18
+
+	if age < 18 {
+		fmt.Println("未成年")
+	} else if age < 60 {
+		fmt.Println("已成年")
+	} else {
+		fmt.Println("已退休")
+	}
+}
+
 /**
 1. if
 2. if - else
