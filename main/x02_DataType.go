@@ -10,7 +10,7 @@ func main() {
 
 	//字符类型
 	str := "abc"
-	fmt.Println(str)
+	fmt.Println(str[0])
 
 	//浮点类型
 	var grade float32
@@ -32,6 +32,9 @@ func main() {
 	//切片类型，动态数组
 	var sli []int
 	fmt.Println(sli)
+
+	var ch byte = 'a'
+	fmt.Printf("ch = %c", ch)
 
 }
 
