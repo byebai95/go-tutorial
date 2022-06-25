@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main(){
+func main() {
 
 	//当前时间
 	now := time.Now()

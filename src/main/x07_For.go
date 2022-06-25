@@ -14,21 +14,20 @@ func main() {
 
 	var str = "Hello,World"
 
-	for index,value := range str{
-		fmt.Printf("index = %d, value = %c\n",index,value)
+	for index, value := range str {
+		fmt.Printf("index = %d, value = %c\n", index, value)
 	}
 
 	//输出 99乘法表
 
-	for i:=1;i<10;i++{
-		for j:=1;j<10;j++{
+	for i := 1; i < 10; i++ {
+		for j := 1; j < 10; j++ {
 			if j <= i {
-				fmt.Printf("%d*%d=%d ",j,i,i*j)
+				fmt.Printf("%d*%d=%d ", j, i, i*j)
 			}
 		}
 		fmt.Println()
 	}
-
 
 }
 

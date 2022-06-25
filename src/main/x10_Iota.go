@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-const(
-	a =  (1 << iota) / 4
+const (
+	a = (1 << iota) / 4
 	b
 	c
 	d
@@ -11,7 +11,7 @@ const(
 	f
 )
 
-func main(){
+func main() {
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
