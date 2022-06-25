@@ -3,16 +3,15 @@ package main
 import "fmt"
 
 type People struct {
-	name string
-	age int
-	sex string
+	name    string
+	age     int
+	sex     string
 	address string
 }
 
+func main() {
 
-func main(){
-
-	p1 := People{"张三",15,"男","北京"}
+	p1 := People{"张三", 15, "男", "北京"}
 
 	fmt.Println(p1)
 

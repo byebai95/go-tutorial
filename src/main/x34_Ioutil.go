@@ -5,12 +5,11 @@ import (
 	"io/ioutil"
 )
 
-func main(){
+func main() {
 
+	byteArr, err := ioutil.ReadFile("d:/test.txt")
 
-	byteArr,err := ioutil.ReadFile("d:/test.txt")
-
-	if err != nil{
+	if err != nil {
 		fmt.Println("打开异常")
 	}
 
